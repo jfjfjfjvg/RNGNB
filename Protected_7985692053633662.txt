@@ -1,1 +1,23 @@
+local a = Instance.new("ScreenGui")
+local b = Instance.new("TextButton")
+a.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+b.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+b.Size = UDim2.new(0.3, 0, 0.3, 0)
+b.Position = UDim2.new(0.35, 0, 0.35, 0)
+b.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
+b.BorderSizePixel = 2
+b.Parent = a
+b.TextSize = 50
+b.Text = "💩💩💩"
+b.MouseButton1Click:Connect(function()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6748255118"
+sound:Play()
+task.wait(2)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+print("💩💩💩")
+Value = RNG
+--//云链更新//--
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGNB/refs/heads/main/Protected_8468062040567798.txt"))()
+a:Destroy()
+end)
