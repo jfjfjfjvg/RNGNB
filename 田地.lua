@@ -1,8 +1,16 @@
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
-
-Notification.Notify("提示", "维修中bbbbbrrrrrooooo", "rbxassetid://87820539289106", {
-    Duration = 9,       
-    Main = {
-        Rounding = true,
-    }
-});
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/VeaMSRZK"))()
+OrionLib:MakeNotification({
+                    Name = "RNG",
+                    Content = "正在维修中",
+                    Time = 5
+                })    
+                
+                local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://4590662766"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://4590662766"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://4590662766"
+sound:Play()
