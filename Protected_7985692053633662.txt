@@ -14,7 +14,6 @@ local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://6748255118"
 sound:Play()
 task.wait(2)
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
 print("💩💩💩")
 Value = RNG
 --//云链更新//--
