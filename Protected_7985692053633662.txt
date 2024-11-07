@@ -17,6 +17,6 @@ task.wait(2)
 print("💩💩💩")
 Value = RNG
 --//云链更新//--
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGNB/refs/heads/main/Protected_8468062040567798.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGNB/refs/heads/main/Protected_6984143616126811.txt"))()
 a:Destroy()
 end)
